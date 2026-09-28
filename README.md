@@ -1,5 +1,15 @@
-# EvoDepth
-[![arXiv](https://img.shields.io/badge/arXiv-2605.14950-b31b1b.svg)](https://arxiv.org/abs/2605.14950)
+<h1 align="center">Evo-Depth</h1>
+
+<p align="center">
+  <a href="https://neurips.cc/Conferences/2026"><img src="https://img.shields.io/badge/NeurIPS-2026-684C9B.svg?style=for-the-badge" alt="NeurIPS 2026"></a>
+  <a href="https://arxiv.org/abs/2605.14950"><img src="https://img.shields.io/badge/arXiv-2605.14950-b31b1b.svg?style=for-the-badge&amp;logo=arxiv" alt="arXiv paper"></a>
+</p>
+
+## 📰 News
+
+- **[2026-09]** 🎉 Evo-Depth has been accepted to **NeurIPS 2026**!
+
+## Overview
 
 Evo-Depth is a lightweight depth-enhanced vision-language-action (VLA) policy for robotic manipulation. It combines a vision-language backbone, an Implicit Depth Encoding Module (IDEM), and a Spatial Enhancement Module (SEM), then predicts continuous action chunks with a flow-matching action expert. The policy takes multi-view RGB observations, robot state, and a language instruction as input.
 
@@ -14,7 +24,9 @@ The default server port is `9000`. Set `EVO_DEPTH_SERVER_PORT` and pass the matc
 
 ## Table of contents
 
-- [EvoDepth](#evodepth)
+- [Evo-Depth](#evo-depth)
+  - [📰 News](#-news)
+  - [Overview](#overview)
   - [Table of contents](#table-of-contents)
   - [Model architecture](#model-architecture)
   - [Installation](#installation)
